@@ -35,7 +35,7 @@ li {
     background-color:#8a550f64;
     position: absolute;
     bottom:0%;
-    height: 10vh;
+    height: 7vh;
     width: 100%;
     overflow: hidden;
 }
@@ -44,4 +44,36 @@ li {
     position: absolute;
     bottom:2.5%;
     left:0.5%;
+}
+
+/*phone ui*/
+@media (max-width: 768px) {
+
+    .title{
+        font-size:37px;
+        margin-top: 40px;
+        margin-bottom: 80px;
+    }
+
+    h4{
+        font-size:18px;
+    }
+
+    p{
+        font-size:13px;
+        margin-top:60px;
+    }
+
+    ul{
+        padding-left: 38%;
+    }
+
+    .coolbox{
+        height:7vh;
+    }
+
+    .madeby{
+        margin-bottom: 2%;
+        margin-left: 1%;
+    }
 }
