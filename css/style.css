@@ -17,24 +17,25 @@ p{
     text-align: center;
 }
 ul{
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     list-style-position: inside;
-    padding-left: 30%;
+    padding: 0;
 }
 li {
   display: list-item;
   text-align: left;           
 }
 .arrow{
-    padding-left: 47.5%;
-    text-align: left;
+    align-items: center;
     font-size: 400%;
 }
 .coolbox{
     display: flex;
     background-color:#8a550f64;
     position: absolute;
-    bottom:0%;
+    bottom:0;
     height: 7vh;
     width: 100%;
     overflow: hidden;
@@ -42,7 +43,7 @@ li {
 .madeby{
     margin-bottom: 0;
     position: absolute;
-    bottom:2.5%;
+    bottom:30%;
     left:0.5%;
 }
 
@@ -57,15 +58,6 @@ li {
 
     h4{
         font-size:18px;
-    }
-
-    p{
-        font-size:13px;
-        margin-top:60px;
-    }
-
-    ul{
-        padding-left: 38%;
     }
 
     .coolbox{
